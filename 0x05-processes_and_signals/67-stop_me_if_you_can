@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Send SIGTERM to the highlander process
+kill "$(pgrep -f 7-highlander)"
