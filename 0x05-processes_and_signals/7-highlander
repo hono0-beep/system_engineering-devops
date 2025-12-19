@@ -1,11 +1,11 @@
 
 #!/usr/bin/env bash
-# A Bash script that handles SIGTERM and runs indefinitely
+# A Bash script that runs indefinitely and handles SIGTERM without stopping
 
-trap 'echo "OK"' SIGTERM
+trap 'echo "I am invincible!!!"' SIGTERM
 
 while true
 do
-  echo "To infinity and beyond"
-  sleep 2
+    echo "To infinity and beyond"
+    sleep 2
 done
